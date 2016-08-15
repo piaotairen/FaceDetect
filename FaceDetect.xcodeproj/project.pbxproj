@@ -15,6 +15,7 @@
 		185A5E901D61758500A2BCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A5E8E1D61758500A2BCC5 /* LaunchScreen.storyboard */; };
 		185A5E9B1D61758500A2BCC5 /* FaceDetectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A5E9A1D61758500A2BCC5 /* FaceDetectTests.m */; };
 		185A5EA61D61758500A2BCC5 /* FaceDetectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A5EA51D61758500A2BCC5 /* FaceDetectUITests.m */; };
+		185A5EB91D61991700A2BCC5 /* 人物笑脸.png in Resources */ = {isa = PBXBuildFile; fileRef = 185A5EB81D61991700A2BCC5 /* 人物笑脸.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		185A5EA11D61758500A2BCC5 /* FaceDetectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDetectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A5EA51D61758500A2BCC5 /* FaceDetectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDetectUITests.m; sourceTree = "<group>"; };
 		185A5EA71D61758500A2BCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185A5EB81D61991700A2BCC5 /* 人物笑脸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人物笑脸.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		185A5E7F1D61758500A2BCC5 /* FaceDetect */ = {
 			isa = PBXGroup;
 			children = (
+				185A5EB31D618E5700A2BCC5 /* Resource */,
 				185A5E831D61758500A2BCC5 /* AppDelegate.h */,
 				185A5E841D61758500A2BCC5 /* AppDelegate.m */,
 				185A5E861D61758500A2BCC5 /* ViewController.h */,
@@ -138,6 +141,14 @@
 				185A5EA71D61758500A2BCC5 /* Info.plist */,
 			);
 			path = FaceDetectUITests;
+			sourceTree = "<group>";
+		};
+		185A5EB31D618E5700A2BCC5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				185A5EB81D61991700A2BCC5 /* 人物笑脸.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185A5EB91D61991700A2BCC5 /* 人物笑脸.png in Resources */,
 				185A5E901D61758500A2BCC5 /* LaunchScreen.storyboard in Resources */,
 				185A5E8D1D61758500A2BCC5 /* Assets.xcassets in Resources */,
 				185A5E8B1D61758500A2BCC5 /* Main.storyboard in Resources */,
